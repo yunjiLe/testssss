@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@charset "UTF-8";
+  @font-face {
+    font-family: 'GyeonggiTitle';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GyeonggiTitle-lighter';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleMedium.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GyeonggiTitle-bold';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gyeonggi/GyeonggiTitleBold.ttf') format("truetype");
+    font-display: swap;
+}
+body{
+  font-family: 'GyeonggiTitleM','GyeonggiTitle-lighter','GyeonggiTitle-bold';
+}
+.section-text{
+  width: 96%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.section-text img{
+  width: 50%;
+}
+.text-warp {
+  background: #ffff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 50%;
+  display: flex;
+ flex-wrap: wrap;
+ text-align: left;
+}
+.text-warp  li{
+  width: 100%;
+}
+.text-warp  li h2{
+  color: #FF6064;
+  margin: 20px 0 0 0;
+  font-size:  30px;
+}
+.text-warp  li p{
+  line-height: 30px;
+  font-size: 19px;
+}
